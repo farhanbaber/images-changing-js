@@ -1,0 +1,66 @@
+|| Image Changer App
+
+A simple web project that allows users to change images by clicking buttons. This is a beginner-friendly JavaScript-based project, ideal for learning DOM manipulation and event handling.
+
+||🔥 Features
+
+- Change images with the click of a button  
+- Simple and clean UI  
+- HTML, CSS, and Vanilla JavaScript  
+- Beginner-friendly project  
+
+|| 🚀 Live Demo
+
+|| 🛠️ Technologies Used
+
+- HTML  
+- CSS  
+- JavaScript  
+
+|| 📁 Project Structure
+
+```
+/image-changer/
+├── index.html
+├── style.css
+├── script.js
+├── images/
+│   ├── image1.jpg
+│   ├── image2.jpg
+│   └── image3.jpg
+└── README.md
+```
+
+|| ⚙️ How to Run
+
+1. Clone this repository  
+   `git clone https://github.com/farhanbaber/image-changer.git`
+
+2. Open the folder  
+   `cd image-changer`
+
+3. Open `index.html` in any browser.
+
+|| 💡 How It Works
+
+Each button is linked to a JavaScript function that changes the `src` attribute of the image element.
+
+Example:
+
+```javascript
+function changeImage(imagePath) {
+  document.getElementById('mainImage').src = imagePath;
+}
+```
+
+|| 📸 Screenshot
+
+![App Screenshot](screenshot.png)  
+_(Replace with your actual screenshot image)_
+
+|| 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
